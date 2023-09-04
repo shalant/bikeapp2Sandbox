@@ -30,9 +30,10 @@ body {
 }
 
 header {
-    background-color: #222;
-    color: #fff;
-    padding: 1rem;
+    /*background-color: #222;*/
+    background: linear-gradient(150deg, rgba(65,67,62,1) 0%, rgba(67,102,74,1) 35%, rgba(214,232,222,1) 100%);
+/*    color: #fff;
+*/    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -231,7 +232,8 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: #222;
-    color: #fff;
+    /*color: #fff;*/
+    background: linear-gradient(150deg, rgba(65,67,62,1) 0%, rgba(67,102,74,1) 35%, rgba(214,232,222,1) 100%);
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
